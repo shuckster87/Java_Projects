@@ -19,10 +19,10 @@ public class Number_Guessing_Game {
         int guess_100 = r.nextInt(100) + 1;
 
         for(int i = 10; i > 0; i--){
-
             System.out.println("Enter a number between 1 and 100: ");
             guess_1 = s.nextInt();
             num_guesses_1++;
+            
             //Guessed Correctly Situation
             if(guess_1 == guess_100){
                 System.out.println("You Guessed Correctly! Congratulations!");
