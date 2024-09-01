@@ -1,4 +1,4 @@
-public class Star {
+public class Star extends Celestial_Body {
     String color;
 }
 
